@@ -12,6 +12,7 @@ def print_dictionary():
 
 def print_translation(word):
     print(hello[word])
+    return hello[word]
 
 print_dictionary()
 print_translation('french')
